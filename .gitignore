@@ -1,6 +1,7 @@
 node_modules/
 .env
 .env.*
+dist
 !.env.example
 .DS_Store
 .yarn
