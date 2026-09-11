@@ -3,25 +3,25 @@ import type { GalleryImage } from "./types";
 export const GALLERY: GalleryImage[] = [
   {
     id: "moss",
-    src: "/puzzles/moss.jpg",
+    src: `${import.meta.env.BASE_URL}puzzles/moss.jpg`,
     title: "苔庭",
     place: "朝の霧",
   },
   {
     id: "lake",
-    src: "/puzzles/lake.jpg",
+    src: `${import.meta.env.BASE_URL}puzzles/lake.jpg`,
     title: "山湖",
     place: "青い刻",
   },
   {
     id: "harbor",
-    src: "/puzzles/harbor.jpg",
+    src: `${import.meta.env.BASE_URL}puzzles/harbor.jpg`,
     title: "港町",
     place: "午後の光",
   },
   {
     id: "atelier",
-    src: "/puzzles/atelier.jpg",
+    src: `${import.meta.env.BASE_URL}puzzles/atelier.jpg`,
     title: "工房",
     place: "静かな机",
   },
